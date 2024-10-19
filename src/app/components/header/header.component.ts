@@ -8,7 +8,7 @@ import { CommonModule } from '@angular/common'; // Import CommonModule
   imports: [CommonModule],
   template: `
     <div class="header-container">
-      <h1>Fringles</h1>
+      <h1>{{ translationService.getTranslation('title') }}</h1>
       <div class="router-container">
         <p class='router-button' (click)="scrollTo('member')">{{ translationService.getTranslation('member.router') }}</p>
         <p class='router-button' (click)="scrollTo('about')">{{ translationService.getTranslation('about.router') }}</p>

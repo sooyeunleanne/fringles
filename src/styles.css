@@ -1,4 +1,5 @@
-/* You can add global styles to this file, and also import other style files */
+@import url('https://fonts.googleapis.com/css2?family=Kantumruy+Pro:ital,wght@0,100..700;1,100..700&display=swap');
+
 * {
   margin: 0;
   padding: 0;
@@ -6,7 +7,7 @@
 
 body {
   background-color: black;
-  font-family: 'Be Vietnam Pro', sans-serif;
+  font-family: "Kantumruy Pro", sans-serif;
 }
 :root {
   --primary-color: #605DC8;
@@ -15,10 +16,25 @@ body {
   --shadow-color: #E8E8E8;
 }
 
-button.primary {
-  padding: 10px;
-  border: solid 1px var(--primary-color);
-  background: var(--primary-color);
+.section-container {
   color: white;
-  border-radius: 8px;
+  text-align: center;
+  padding-top: 5rem;
+}
+
+.paragraph-container {
+  display: block;
+  width: 50%;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 2rem;
+  line-height: 1.75rem;
+}
+
+a {
+  color: rgb(133, 245, 255);
+}
+
+a:hover {
+  color: lightgrey;
 }

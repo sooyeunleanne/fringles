@@ -13,7 +13,7 @@ import { Component } from '@angular/core';
       </div>
     </div>
   `,
-  styleUrls: [ '../../../app.component.css']
+  styleUrls: []
 })
 export class SponsorComponent {
 

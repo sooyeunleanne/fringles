@@ -1,6 +1,7 @@
 :host {
   --content-padding: 10px;
 }
+
 header {
   display: block;
   height: 60px;
@@ -10,27 +11,4 @@ header {
 
 .content {
   padding: var(--content-padding);
-}
-
-.section-container {
-  color: white;
-  text-align: center;
-  padding-top: 5rem;
-}
-
-.paragraph-container {
-  display: block;
-  width: 50%;
-  margin-left: auto;
-  margin-right: auto;
-  margin-top: 2rem;
-  line-height: 1.75rem;
-}
-
-a {
-  color: rgb(133, 245, 255);
-}
-
-a:hover {
-  color: lightgrey;
 }

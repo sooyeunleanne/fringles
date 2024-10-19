@@ -1,31 +1,46 @@
+// translation.service.ts
 import { Injectable } from '@angular/core';
 import { HttpClient } from '@angular/common/http';
-import { Observable } from 'rxjs';
+import { BehaviorSubject } from 'rxjs';
 
 @Injectable({
   providedIn: 'root'
 })
-
 export class TranslationService {
-  public currentLanguage = 'en'; // default language
+  private currentLanguageSubject = new BehaviorSubject<string>('en');
   private translations: any = {};
 
   constructor(private http: HttpClient) {
-    this.loadTranslations(this.currentLanguage);
-  }
-
-  loadTranslations(lang: string): void {
-    this.http.get(`/assets/texts/${lang}.json`).subscribe((data) => {
-      this.translations = data;
+    this.loadTranslations(this.currentLanguageSubject.value);
+    
+    // Subscribe to language changes
+    this.currentLanguageSubject.subscribe(lang => {
+      this.loadTranslations(lang);
     });
   }
 
-  switchLanguage(lang: string): void {
-    this.currentLanguage = lang;
-    this.loadTranslations(lang);
+  private loadTranslations(lang: string) {
+    this.http.get(`assets/i18n/${lang}.json`).subscribe({
+      next: (translations) => {
+        this.translations = translations;
+        console.log('Loaded translations:', translations); // Log translations to check
+      },
+      error: (err) => {
+        console.error('Error loading translations:', err);
+      }
+    });
   }
 
-  translate(key: string): string {
-    return this.translations[key] || key; // fallback to key if translation not found
+  changeLanguage(lang: string) {
+    this.currentLanguageSubject.next(lang);
+  }
+
+  getTranslation(key: string) {
+    const keys = key.split('.');
+    return keys.reduce((acc, curr) => acc && acc[curr], this.translations) || key;
+  }
+
+  get currentLanguage$() {
+    return this.currentLanguageSubject.asObservable();
   }
 }

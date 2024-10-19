@@ -9,10 +9,10 @@ import { Component } from '@angular/core';
       <h1>Fringles</h1>
       <div class="router-container">
         <p>
-          About
+          Members
         </p>
         <p>
-          Members
+          About
         </p>
         <p>
           Sponsors

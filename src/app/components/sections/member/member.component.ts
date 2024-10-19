@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <div class='section-container'>
+    <div id='member' class='section-container'>
       <h1>Members</h1>
       <div class='paragraph-container'>
         <p><b>Vocal</b>: Bella Kim</p>

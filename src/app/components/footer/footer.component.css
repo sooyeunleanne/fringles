@@ -9,6 +9,7 @@ p {
     width: 50%;
     display: block;
     margin: 5rem auto 3rem auto;
+    line-height: 1.75rem;
 }
 
 a {

@@ -9,7 +9,10 @@ import { Component } from '@angular/core';
       <p>
         For more inquiries: Email us at 
         <a href="mailto:gayeunbella@gmail.com">gayeunbella&#64;gmail.com</a>
-        </p>
+      </p>
+      <p>
+        Developed by Leanne Kim
+      </p>
     </div> 
   `,
   styleUrls: ['../../app.component.css', './footer.component.css']

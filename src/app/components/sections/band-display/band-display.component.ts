@@ -5,7 +5,7 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <div class='band-display-container'>
+    <div id='band-display' class='band-display-container'>
       <span class='stage-square'></span>
       <span class='stage-circle'></span>
 

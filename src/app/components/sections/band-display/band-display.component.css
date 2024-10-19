@@ -1,0 +1,56 @@
+/* Outer container that centers the content in the viewport */
+.band-display-container {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+/* Inner wrapper that holds the images and positions them relatively */
+.band-wrapper {
+    position: relative;
+    width: 530px; /* Adjust this width based on the layout size */
+    height: 400px; /* Adjust this height based on the layout size */
+}
+
+/* Images are absolutely positioned relative to the band-wrapper */
+img {
+    position: absolute;
+}
+
+/* Individual image positions (adjust as needed) */
+.bass {
+    width: 180px;
+    top: 50px;
+}
+
+.drummer {
+    width: 200px;
+    top: -50px;
+    left: 130px;
+}
+
+.vocal {
+    width: 210px;
+    top: 150px;
+    left: 110px;
+}
+
+.elec {
+    width: 215px;
+    top: 100px;
+    left: 260px;
+}
+
+.keyboard-player {
+    width: 200px;
+    top: 45px;
+    left: 330px;
+}
+
+.keyboard {
+    width: 170px;
+    top: 120px;
+    left: 350px;
+}

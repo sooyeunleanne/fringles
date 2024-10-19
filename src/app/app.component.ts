@@ -1,6 +1,6 @@
 import {Component} from '@angular/core';
 import { HeaderComponent } from "./components/header/header.component";
-import { BandDisplayComponent } from "./components/band-display/band-display.component";
+import { BandDisplayComponent } from "./components/sections/band-display/band-display.component";
 import { AboutComponent } from "./components/sections/about/about.component";
 import { MemberComponent } from "./components/sections/member/member.component";
 import { SponsorComponent } from "./components/sections/sponsor/sponsor.component";

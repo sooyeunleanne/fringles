@@ -14,12 +14,12 @@ import { Component } from '@angular/core';
 
 
       <div class='band band-wrapper'>
-        <img class='band drummer' src='../../../../assets/images/drummer.png'>
-        <img class='band bass' src='../../../../assets/images/bass.png'>
-        <img class='band keyboard-player' src='../../../../assets/images/keyboard-player.png'>
-        <img class='band keyboard' src='../../../../assets/images/keyboard.png'>
-        <img class='band elec' src='../../../../assets/images/elec.png'>
-        <img class='band vocal' src='../../../../assets/images/vocal.png'>
+        <img class='drummer' src='../../../../assets/images/drummer.png'>
+        <img class='bass' src='../../../../assets/images/bass.png'>
+        <img class='keyboard-player' src='../../../../assets/images/keyboard-player.png'>
+        <img class='keyboard' src='../../../../assets/images/keyboard.png'>
+        <img class='elec' src='../../../../assets/images/elec.png'>
+        <img class='vocal' src='../../../../assets/images/vocal.png'>
       </div>
     </div>
   `,

@@ -29,7 +29,7 @@
 .band:nth-child(2) { animation-delay: 0s; }
 .band:nth-child(3) { animation-delay: 0.5s; }
 .band:nth-child(4) { animation-delay: 0.5s; }
-.band:nth-child(5) { animation-delay: 1.5s; }
+.band:nth-child(5) { animation-delay: 1.0s; }
 
 img {
     position: absolute;

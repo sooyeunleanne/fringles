@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 
 export class TranslationService {
-  private currentLanguage = 'en'; // default language
+  public currentLanguage = 'en'; // default language
   private translations: any = {};
 
   constructor(private http: HttpClient) {

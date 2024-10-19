@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
       </div>
     </div>
   `,
-  styleUrls: ['./member.component.css', '../../../app.component.css']
+  styleUrls: ['./member.component.css']
 })
 export class MemberComponent {
 

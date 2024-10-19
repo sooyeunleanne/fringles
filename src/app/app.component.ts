@@ -9,7 +9,8 @@ import { FooterComponent } from "./components/footer/footer.component";
 @Component({
   selector: 'app-root',
   standalone: true,
-  imports: [HeaderComponent, BandDisplayComponent, AboutComponent, MemberComponent, SponsorComponent, FooterComponent],
+  providers: [],
+  imports: [ HeaderComponent, BandDisplayComponent, AboutComponent, MemberComponent, SponsorComponent, FooterComponent],
   template: `
     <div>
       <app-header/>

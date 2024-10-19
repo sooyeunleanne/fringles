@@ -1,5 +1,4 @@
 import { Component } from '@angular/core';
-
 @Component({
   selector: 'app-band-display',
   standalone: true,
@@ -25,5 +24,6 @@ import { Component } from '@angular/core';
   `,
   styleUrls: ['./band-display.component.css']
 })
+
 export class BandDisplayComponent {
 }

@@ -5,12 +5,14 @@
         "title": "멤버",
         "Vocal": "보컬",
         "Bella Kim": "김가연",
-        "Electric Guita": "일렉기타",
+        "Electric Guitar": "일렉기타",
         "Jiyong Choi": "최지용",
         "Bass Guitar": "베이스",
         "Danielle Pak": "다니엘",
         "Keyboard": "키보드",
-        "Min Kim": "김민균"
+        "Min Kim": "김민균",
+        "Drum": "드럼",
+        "Kiyoon Kim": "김기윤"
     },
     "about": {
         "router": "정보",
@@ -20,5 +22,9 @@
     "sponsor": {
         "router": "스폰서",
         "title": "스폰서"
+    },
+    "footer": {
+        "Inquiries": "문의사항은 이메일로 보내주세요: ",
+        "Developer": "웹사이트 개발자: 김수연"
     }
 }

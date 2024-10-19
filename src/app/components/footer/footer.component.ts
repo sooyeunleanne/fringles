@@ -1,5 +1,5 @@
 import { Component } from '@angular/core';
-
+import { TranslationService } from 'src/app/services/translation.service';
 @Component({
   selector: 'app-footer',
   standalone: true,
@@ -7,16 +7,17 @@ import { Component } from '@angular/core';
   template: `
     <div class='footer-container'>
       <p>
-        For more inquiries: Email us at 
+      {{ translationService.getTranslation('footer.Inquiries') }}
         <a href="mailto:gayeunbella@gmail.com">gayeunbella&#64;gmail.com</a>
       </p>
       <p>
-        Developed by Leanne Kim
+      {{ translationService.getTranslation('footer.Developer') }}
       </p>
     </div> 
   `,
   styleUrls: ['../../app.component.css', './footer.component.css']
 })
-export class FooterComponent {
 
+export class FooterComponent {
+  constructor(public translationService: TranslationService) {}
 }

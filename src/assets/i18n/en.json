@@ -5,12 +5,14 @@
         "title": "Members",
         "Vocal": "Vocal",
         "Bella Kim": "Bella Kim",
-        "Electric Guita": "Electric Guitar",
+        "Electric Guitar": "Electric Guitar",
         "Jiyong Choi": "Jiyong Choi",
         "Bass Guitar": "Bass Guitar",
         "Danielle Pak": "Danielle Pak",
         "Keyboard": "Keyboard",
-        "Min Kim": "Min Kim"
+        "Min Kim": "Min Kim",
+        "Drum": "Drum",
+        "Kiyoon Kim": "Kiyoon Kim"
     },
     "about": {
         "router": "About",
@@ -20,5 +22,9 @@
     "sponsor": {
         "router": "Sponsors",
         "title": "Our Sponsors"
+    },
+    "footer": {
+        "Inquiries": "For more inquiries: Email us at",
+        "Developer": "Developed by Leanne Kim"
     }
 }

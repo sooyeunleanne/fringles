@@ -13,7 +13,10 @@ import { CommonModule } from '@angular/common'; // Import CommonModule
         <p class='router-button' (click)="scrollTo('member')">{{ translationService.getTranslation('member.router') }}</p>
         <p class='router-button' (click)="scrollTo('about')">{{ translationService.getTranslation('about.router') }}</p>
         <p class='router-button' (click)="scrollTo('sponsor')">{{ translationService.getTranslation('sponsor.router') }}</p>
-      </div>
+
+        <p class='translation-button' *ngIf="(translationService.currentLanguage$ | async) === 'kr'" (click)="changeLanguage('en')">🇨🇦 English</p>
+        <p class='translation-button' *ngIf="(translationService.currentLanguage$ | async) === 'en'" (click)="changeLanguage('kr')">🇰🇷 한국어</p>
+        </div>
     </div>
   `,
   styleUrls: ['./header.component.css'],

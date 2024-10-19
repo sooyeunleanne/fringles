@@ -38,5 +38,15 @@
 .router-button:hover {
     text-decoration: none; /* Prevent default underline if any */
     cursor: pointer;
-    transform: scale(1.02); /* Slightly scale up on hover */
+    transform: scale(1.03); /* Slightly scale up on hover */
+}
+
+.translation-button {
+    color: white;
+}
+
+.translation-button:hover {
+    transform: scale(1.03);
+    cursor: pointer;
+    font-weight: bold;
 }

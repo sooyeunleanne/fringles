@@ -5,11 +5,22 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <p>
-      header works!
-    </p>
+    <div class="header-container">
+      <h1>Fringles</h1>
+      <div class="router-container">
+        <p>
+          About
+        </p>
+        <p>
+          Members
+        </p>
+        <p>
+          Sponsors
+        </p>
+      </div>
+    </div>
   `,
-  styles: ``
+  styleUrls: ['./header.component.css'],
 })
 export class HeaderComponent {
 

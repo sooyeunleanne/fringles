@@ -13,8 +13,8 @@ import { SponsorComponent } from "./components/sections/sponsor/sponsor.componen
     <div>
       <app-header/>
       <app-band-display/>
-      <app-about/>
       <app-member/>
+      <app-about/>
       <app-sponsor/>
     </div>
   `,

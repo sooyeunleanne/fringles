@@ -5,9 +5,9 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <div>
+    <div class='section-container'>
       <h1>Members</h1>
-      <div>
+      <div class='paragraph-container'>
         <p><b>Vocal</b>: Bella Kim</p>
         <p><b>Electric Guitar</b>:	Jiyong Choi</p>
         <p><b>Bass</b>: Danielle Pak</p>
@@ -16,7 +16,7 @@ import { Component } from '@angular/core';
       </div>
     </div>
   `,
-  styles: ``
+  styleUrls: ['./member.component.css', '../../../app.component.css']
 })
 export class MemberComponent {
 

@@ -5,11 +5,15 @@ import { Component } from '@angular/core';
   standalone: true,
   imports: [],
   template: `
-    <p>
-      sponsor works!
-    </p>
+    <div class='section-container'>
+      <h1>Sponsors</h1>
+      <div class='paragraph-container'>
+        <p>Bob's Guitar Service</p>
+        <a href='https://bobsguitarservice.com/'>https://bobsguitarservice.com/</a>
+      </div>
+    </div>
   `,
-  styles: ``
+  styleUrls: [ '../../../app.component.css']
 })
 export class SponsorComponent {
 

@@ -2,3 +2,12 @@
     color: white;
     text-align: center;
 }
+
+.paragraph-container {
+    display: block;
+    width: 50%;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 2rem;
+    line-height: 1.75rem;
+}

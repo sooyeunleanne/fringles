@@ -6,20 +6,20 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <div id='band-display' class='band-display-container'>
-      <span class='stage-square'></span>
-      <span class='stage-circle'></span>
+      <span class='band stage-square'></span>
+      <span class='band stage-circle'></span>
 
-      <span class='light-triangle'></span>
-      <span class='light-circle'></span>
+      <span class='band light-triangle'></span>
+      <span class='band light-circle'></span>
 
 
-      <div class='band-wrapper'>
-        <img class='drummer' src='../../../../assets/images/drummer.png'>
-        <img class='bass' src='../../../../assets/images/bass.png'>
-        <img class='keyboard-player' src='../../../../assets/images/keyboard-player.png'>
-        <img class='keyboard' src='../../../../assets/images/keyboard.png'>
-        <img class='elec' src='../../../../assets/images/elec.png'>
-        <img class='vocal' src='../../../../assets/images/vocal.png'>
+      <div class='band band-wrapper'>
+        <img class='band drummer' src='../../../../assets/images/drummer.png'>
+        <img class='band bass' src='../../../../assets/images/bass.png'>
+        <img class='band keyboard-player' src='../../../../assets/images/keyboard-player.png'>
+        <img class='band keyboard' src='../../../../assets/images/keyboard.png'>
+        <img class='band elec' src='../../../../assets/images/elec.png'>
+        <img class='band vocal' src='../../../../assets/images/vocal.png'>
       </div>
     </div>
   `,

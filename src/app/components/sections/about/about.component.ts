@@ -12,7 +12,7 @@ import { Component } from '@angular/core';
       </div>
     </div>
   `,
-  styleUrls: ['./about.component.css', '../../../app.component.css']
+  styleUrls: ['./about.component.css']
 })
 export class AboutComponent {
 

@@ -6,19 +6,35 @@
     align-items: center;
 }
 
-
-/* Inner wrapper that holds the images and positions them relatively */
 .band-wrapper {
     position: relative;
     width: 530px;
     height: 400px; 
 }
 
+.band {
+    opacity: 0; /* Initially hide all images */
+    transform: translateY(20px); /* Slightly move images down */
+    animation: fadeIn 0.5s forwards; /* Apply animation */
+}
+
+@keyframes fadeIn {
+    to {
+        opacity: 1; /* Fully visible */
+        transform: translateY(0); /* Move to original position */
+    }
+}
+
+.band:nth-child(1) { animation-delay: 0s; }
+.band:nth-child(2) { animation-delay: 0s; }
+.band:nth-child(3) { animation-delay: 0.5s; }
+.band:nth-child(4) { animation-delay: 0.5s; }
+.band:nth-child(5) { animation-delay: 1.5s; }
+
 img {
     position: absolute;
 }
 
-/* Individual image positions */
 .bass {
     width: 180px;
     top: 50px;

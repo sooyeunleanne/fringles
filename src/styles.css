@@ -32,9 +32,22 @@ body {
 }
 
 a {
-  color: rgb(133, 245, 255);
+  color: #88E1F2; /* Light blue */
 }
 
 a:hover {
   color: lightgrey;
+}
+
+@media (max-width: 768px) {
+  .paragraph-container {
+    width: 100%;
+  }
+}
+
+/* Medium devices (tablets) */
+@media (min-width: 768px) and (max-width: 1024px) {
+  .paragraph-container {
+    width: 70%;
+  }
 }

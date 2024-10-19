@@ -109,3 +109,158 @@ img {
 	display: block;
     top: calc(50vh + 0.55rem);
 }
+
+@media (max-width: 768px) {
+    .band-wrapper {
+        position: relative;
+        width: 70%;
+        height: 400px; 
+    }
+    
+    .bass {
+        width: 50px;
+        top: 50px;
+    }
+    
+    .drummer {
+        width: 200px;
+        top: -50px;
+        left: 130px;
+    }
+    
+    .vocal {
+        width: 210px;
+        top: 150px;
+        left: 110px;
+    }
+    
+    .elec {
+        width: 215px;
+        top: 100px;
+        left: 260px;
+    }
+    
+    .keyboard-player {
+        width: 200px;
+        top: 45px;
+        left: 330px;
+    }
+    
+    .keyboard {
+        width: 170px;
+        top: 120px;
+        left: 350px;
+    }
+    
+    .stage-circle {
+        height: 320px;
+        width: 950px;
+        background-color: #474747;
+        border-radius: 50%;
+        display: block;
+        position: absolute;
+        top: calc(50vh - 2rem);
+    }
+    
+    .stage-square {
+        height: calc(100vh - 50vh + 2rem );
+        width: 950px;
+        background: linear-gradient(to bottom, #474747, black); 
+        display: block;
+        position: absolute;
+        top: calc(50vh - 2rem + 160px);
+        z-index: -999;
+    }
+    
+    .light-triangle {
+        position: absolute;
+        top: 3rem;
+        width: 0;
+        height: 0;
+        border-left: 410px solid transparent;  /* Half of the bottom width (820px / 2) */
+        border-right: 410px solid transparent; /* Half of the bottom width (820px / 2) */
+        border-bottom: 450px solid rgba(255,254,217,0.4);    /* Height and color of the triangle */
+    }
+    
+    .light-circle {
+        position: absolute;
+        width: 820px;
+        height: 200px;
+        background-color: rgba(255,254,217,0.4);
+        border-radius: 50%;
+        display: block;
+        top: calc(50vh + 0.55rem);
+    }
+}
+
+  /* Medium devices (tablets) */
+  @media (min-width: 768px) and (max-width: 1024px) {
+    .band-wrapper {
+        position: relative;
+        width: 500px;
+        height: 300px; 
+    }
+    
+    .bass {
+        width: 120px;
+        top: calc(50px - 4rem);
+        left: 100px;
+    }
+    
+    .drummer {
+        width: 120px;
+        top: calc( -25px - 4rem);
+        left: 150px;
+    }
+    
+    .vocal {
+        width: 150px;
+        top: calc(100px - 4rem);
+        left: 175px;
+    }
+    
+    .elec {
+        width: 140px;
+        top: calc(50px - 4rem);
+        left: 250px;
+    }
+    
+    .keyboard-player {
+        width: 120px;
+        top: -4rem;
+        left: 300px;
+    }
+    
+    .keyboard {
+        width: 120px;
+        top: calc(50px - 4rem);
+        left: 300px;
+    }
+    
+    .stage-circle {
+        height: 250px;
+        width: 500px;
+        background-color: #474747;
+        border-radius: 50%;
+        top: calc(50vh - 4rem);
+    }
+    
+    .stage-square {
+        height: calc(50vh);
+        width: 500px;
+        top: calc(50vh - 4rem + 125px);
+    }
+    
+    .light-triangle {
+        border-left: 200px solid transparent;  /* Half of the bottom width (820px / 2) */
+        border-right: 200px solid transparent; /* Half of the bottom width (820px / 2) */
+        border-bottom: 450px solid rgba(255,254,217,0.4);    /* Height and color of the triangle */
+    }
+    
+    .light-circle {
+        width: 400px;
+        height: 150px;
+        top: calc(50vh - 1.25rem);
+    }
+  }
+  

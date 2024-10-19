@@ -1,7 +1,7 @@
 .header-container {
     display: flex;
     justify-content: space-between;
-    padding: 1rem;
+    padding: 2rem;
     color: white;
 }
 
@@ -9,4 +9,34 @@
     display: flex;
     width: 30rem;
     justify-content: space-evenly;
+    position: relative;
+}
+
+.router-button {
+    position: relative; /* Required for the pseudo-element */
+    display: inline-block; /* Ensures that the button is treated as a block for proper width calculation */
+    padding: 0 0.1rem; /* Optional: adds a little space for better aesthetics */
+    transition: transform 0.3s ease; /* Smooth scaling effect */
+}
+
+.router-button::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 10px; /* Position it below the text */
+    height: 2px; /* Thickness of the underline */
+    background-color: currentColor; /* Use the text color */
+    transform: scaleX(0); /* Start with no underline */
+    transition: transform 0.3s ease; /* Smooth transition for the underline */
+}
+
+.router-button:hover::after {
+    transform: scaleX(1); /* Expand the underline on hover */
+}
+
+.router-button:hover {
+    text-decoration: none; /* Prevent default underline if any */
+    cursor: pointer;
+    transform: scale(1.02); /* Slightly scale up on hover */
 }

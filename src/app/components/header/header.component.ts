@@ -8,9 +8,9 @@ import { Component } from '@angular/core';
     <div class="header-container">
       <h1>Fringles</h1>
       <div class="router-container">
-        <p (click)="scrollTo('member')">Members</p>
-        <p (click)="scrollTo('about')">About</p>
-        <p (click)="scrollTo('sponsor')">Sponsors</p>
+        <p class='router-button' (click)="scrollTo('member')">Members</p>
+        <p class='router-button' (click)="scrollTo('about')">About</p>
+        <p class='router-button' (click)="scrollTo('sponsor')">Sponsors</p>
       </div>
     </div>
   `,

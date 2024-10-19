@@ -1,4 +1,3 @@
-/* Outer container that centers the content in the viewport */
 .band-display-container {
     height: 100vh;
     width: 100vw;
@@ -7,19 +6,19 @@
     align-items: center;
 }
 
+
 /* Inner wrapper that holds the images and positions them relatively */
 .band-wrapper {
     position: relative;
-    width: 530px; /* Adjust this width based on the layout size */
-    height: 400px; /* Adjust this height based on the layout size */
+    width: 530px;
+    height: 400px; 
 }
 
-/* Images are absolutely positioned relative to the band-wrapper */
 img {
     position: absolute;
 }
 
-/* Individual image positions (adjust as needed) */
+/* Individual image positions */
 .bass {
     width: 180px;
     top: 50px;
@@ -53,4 +52,24 @@ img {
     width: 170px;
     top: 120px;
     left: 350px;
+}
+
+.stage-circle {
+    height: 320px;
+    width: 950px;
+    background-color: #474747;
+    border-radius: 50%;
+    display: block;
+    position: absolute;
+    top: calc(50vh - 2rem);
+}
+
+.stage-square {
+    height: calc(100vh - 50vh + 2rem );
+    width: 950px;
+    background: linear-gradient(to bottom, #474747, black); 
+    display: block;
+    position: absolute;
+    top: calc(50vh - 2rem + 160px);
+    z-index: -999;
 }

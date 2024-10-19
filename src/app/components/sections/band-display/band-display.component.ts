@@ -6,6 +6,8 @@ import { Component } from '@angular/core';
   imports: [],
   template: `
     <div class='band-display-container'>
+      <span class='stage-square'></span>
+      <span class='stage-circle'></span>
       <div class='band-wrapper'>
         <img class='drummer' src='../../../../assets/images/drummer.png'>
         <img class='bass' src='../../../../assets/images/bass.png'>

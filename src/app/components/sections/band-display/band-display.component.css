@@ -73,3 +73,23 @@ img {
     top: calc(50vh - 2rem + 160px);
     z-index: -999;
 }
+
+.light-triangle {
+    position: absolute;
+    top: 3rem;
+    width: 0;
+	height: 0;
+	border-left: 410px solid transparent;  /* Half of the bottom width (820px / 2) */
+    border-right: 410px solid transparent; /* Half of the bottom width (820px / 2) */
+    border-bottom: 450px solid rgba(255,254,217,0.4);    /* Height and color of the triangle */
+}
+
+.light-circle {
+    position: absolute;
+    width: 820px;
+	height: 200px;
+    background-color: rgba(255,254,217,0.4);
+    border-radius: 50%;
+	display: block;
+    top: calc(50vh + 0.55rem);
+}

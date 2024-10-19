@@ -1,0 +1,16 @@
+p {
+    color: white;
+}
+
+.footer-container {
+    padding: 2rem;
+    text-align: center;
+    border-top: 1px white solid;
+    width: 50%;
+    display: block;
+    margin: 5rem auto 3rem auto;
+}
+
+a {
+    color: pink;
+}

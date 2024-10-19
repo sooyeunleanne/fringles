@@ -26,3 +26,11 @@ header {
   margin-top: 2rem;
   line-height: 1.75rem;
 }
+
+a {
+  color: rgb(133, 245, 255);
+}
+
+a:hover {
+  color: lightgrey;
+}

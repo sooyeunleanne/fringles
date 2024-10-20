@@ -243,6 +243,7 @@ img {
     }
     
     .light-triangle {
+        display: block;
         top: calc(3rem + 50px);
         border-left: 200px solid transparent;  /* Half of the bottom width (820px / 2) */
         border-right: 200px solid transparent; /* Half of the bottom width (820px / 2) */

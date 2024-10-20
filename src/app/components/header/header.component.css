@@ -50,3 +50,19 @@
     cursor: pointer;
     font-weight: bold;
 }
+
+@media (max-width: 768px) {
+    h1 {
+        text-align: center;
+        margin-bottom: 1rem;
+    }
+
+    .header-container {
+      display: inline;
+    }
+    
+    .router-container {
+        width: 100%;
+    }
+  }
+  

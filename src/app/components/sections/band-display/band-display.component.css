@@ -111,6 +111,10 @@ img {
 }
 
 @media (max-width: 768px) {
+    .band-display-container {
+        height: calc(100vh - 3rem);
+    }
+
     .band-wrapper {
         position: relative;
         width: 70%;
@@ -118,78 +122,64 @@ img {
     }
     
     .bass {
-        width: 50px;
+        width: 75px;
         top: 50px;
+        left: 30px;
     }
     
     .drummer {
-        width: 200px;
-        top: -50px;
-        left: 130px;
+        width: 70px;
+        top: 30px;
+        left: 60px;
     }
     
     .vocal {
-        width: 210px;
-        top: 150px;
-        left: 110px;
+        width: 90px;
+        top: 80px;
+        left: 80px;
     }
     
     .elec {
-        width: 215px;
-        top: 100px;
-        left: 260px;
+        width: 80px;
+        top: 60px;
+        left: 120px;
     }
     
     .keyboard-player {
-        width: 200px;
-        top: 45px;
-        left: 330px;
+        width: 75px;
+        top: 30px;
+        left: 135px;
     }
     
     .keyboard {
-        width: 170px;
-        top: 120px;
-        left: 350px;
+        width: 60px;
+        top: 70px;
+        left: 140px;
     }
     
     .stage-circle {
-        height: 320px;
-        width: 950px;
-        background-color: #474747;
-        border-radius: 50%;
-        display: block;
-        position: absolute;
+        height: 100px;
+        width: 300px;
         top: calc(50vh - 2rem);
     }
     
     .stage-square {
-        height: calc(100vh - 50vh + 2rem );
-        width: 950px;
-        background: linear-gradient(to bottom, #474747, black); 
-        display: block;
-        position: absolute;
-        top: calc(50vh - 2rem + 160px);
-        z-index: -999;
+        height: calc(50vh );
+        width: 300px;
+        top: calc(50vh + 50px - 2rem);
     }
     
     .light-triangle {
-        position: absolute;
-        top: 3rem;
-        width: 0;
-        height: 0;
-        border-left: 410px solid transparent;  /* Half of the bottom width (820px / 2) */
-        border-right: 410px solid transparent; /* Half of the bottom width (820px / 2) */
-        border-bottom: 450px solid rgba(255,254,217,0.4);    /* Height and color of the triangle */
+        top: 7rem;
+        border-left: 100px solid transparent;  /* Half of the bottom width (820px / 2) */
+        border-right: 100px solid transparent; /* Half of the bottom width (820px / 2) */
+        border-bottom: 350px solid rgba(255,254,217,0.4);    /* Height and color of the triangle */
     }
     
     .light-circle {
-        position: absolute;
-        width: 820px;
-        height: 200px;
-        background-color: rgba(255,254,217,0.4);
-        border-radius: 50%;
-        display: block;
-        top: calc(50vh + 0.55rem);
+        width: 200px;
+        height: 50px;
+        top: calc(50vh - 1rem);
     }
 }
 
@@ -252,9 +242,10 @@ img {
     }
     
     .light-triangle {
+        top: calc(3rem + 50px);
         border-left: 200px solid transparent;  /* Half of the bottom width (820px / 2) */
         border-right: 200px solid transparent; /* Half of the bottom width (820px / 2) */
-        border-bottom: 450px solid rgba(255,254,217,0.4);    /* Height and color of the triangle */
+        border-bottom: 400px solid rgba(255,254,217,0.4);    /* Height and color of the triangle */
     }
     
     .light-circle {

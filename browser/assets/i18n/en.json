@@ -1,0 +1,30 @@
+{
+    "title": "Fringles",
+    "member": {
+        "router": "Members",
+        "title": "Members",
+        "Vocal": "Vocal",
+        "Bella Kim": "Bella Kim",
+        "Electric Guitar": "Electric Guitar",
+        "Jiyong Choi": "Jiyong Choi",
+        "Bass Guitar": "Bass Guitar",
+        "Danielle Pak": "Danielle Pak",
+        "Keyboard": "Keyboard",
+        "Min Kim": "Min Kim",
+        "Drum": "Drum",
+        "Kiyoon Kim": "Kiyoon Kim"
+    },
+    "about": {
+        "router": "About",
+        "title": "About Us",
+        "paragraph": "Fringles is a newly formed Korean youth band. With a passion for music and a heart for service, the band aims to fundraise for donation purposes, using their talent to support various charitable causes. Fringles plans to perform at different charity events, spreading joy and hope through their music while making a positive impact in their community and beyond."
+    },
+    "sponsor": {
+        "router": "Sponsors",
+        "title": "Our Sponsors"
+    },
+    "footer": {
+        "Inquiries": "For more inquiries: Email us at",
+        "Developer": "Developed by Leanne Kim"
+    }
+}

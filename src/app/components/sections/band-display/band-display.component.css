@@ -170,6 +170,7 @@ img {
     }
     
     .light-triangle {
+        display: none;
         top: 7rem;
         border-left: 100px solid transparent;  /* Half of the bottom width (820px / 2) */
         border-right: 100px solid transparent; /* Half of the bottom width (820px / 2) */
